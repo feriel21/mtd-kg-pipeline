@@ -219,7 +219,7 @@ mtd-kg-pipeline/
 
 ---
 
-## License
+
 
 
 The geological corpus used in this work is derived from published scientific literature and is not redistributed. Users must obtain their own copies of the source papers.
