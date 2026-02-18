@@ -1,0 +1,17 @@
+{
+  "run": 3,
+  "date": "2026-01",
+  "method": "RAG + Qwen 1.5B",
+  "llm": "Qwen/Qwen2.5-1.5B-Instruct",
+  "corpus": "41 papers (without Le Bouteiller)",
+  "strategies": ["causal", "descriptor", "context"],
+  "queries": 68,
+  "raw_triples": 142,
+  "clean_triples": 117,
+  "unique_nodes": 90,
+  "relatedTo_pct": 0.0,
+  "hasDescriptor_pct": 62.4,
+  "lb_recall": 0.62,
+  "descriptor_coverage": "11/13",
+  "descriptors_missing": ["stratified", "undeformed"]
+}

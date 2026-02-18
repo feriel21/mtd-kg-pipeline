@@ -1,0 +1,827 @@
+@prefix geo: <http://example.org/geo-kg/> .
+@prefix lb: <http://example.org/lb2019/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+geo:fluid_overpressure lb:causes geo:slope_failure .
+geo:fluid_overpressure a lb:Process .
+geo:slope_failure a lb:Process .
+geo:query_9112705040 a prov:Entity .
+geo:query_9112705040 rdfs:label "How does fluid overpressure affect or cause slope failure in mass transport deposits?" .
+geo:fluid_overpressure prov:wasDerivedFrom geo:query_9112705040 .
+geo:retrogressive_failure lb:causes geo:headscarp_formation .
+geo:retrogressive_failure a lb:Process .
+geo:headscarp_formation a lb:SeismicObject .
+geo:query_9511881195 a prov:Entity .
+geo:query_9511881195 rdfs:label "How does retrogressive failure affect or cause headscarp in mass transport deposits?" .
+geo:retrogressive_failure prov:wasDerivedFrom geo:query_9511881195 .
+geo:retrogressive_failure lb:affects geo:headscarp .
+geo:retrogressive_failure a lb:Process .
+geo:headscarp a lb:SeismicObject .
+geo:query_9511881195 a prov:Entity .
+geo:query_9511881195 rdfs:label "How does retrogressive failure affect or cause headscarp in mass transport deposits?" .
+geo:retrogressive_failure prov:wasDerivedFrom geo:query_9511881195 .
+geo:remobilization lb:affects geo:transparent_facies .
+geo:remobilization a lb:Process .
+geo:transparent_facies a lb:Descriptor .
+geo:query_5382176515 a prov:Entity .
+geo:query_5382176515 rdfs:label "How does remobilization affect or cause transparent facies in mass transport deposits?" .
+geo:remobilization prov:wasDerivedFrom geo:query_5382176515 .
+geo:material_heterogeneity lb:controls geo:flow_behavior .
+geo:material_heterogeneity a lb:Process .
+geo:flow_behavior a lb:Process .
+geo:query_8594666673 a prov:Entity .
+geo:query_8594666673 rdfs:label "What is the relationship between material heterogeneity and flow behavior in MTDs?" .
+geo:material_heterogeneity prov:wasDerivedFrom geo:query_8594666673 .
+geo:debris_flow lb:hasDescriptor geo:chaotic .
+geo:debris_flow a lb:SeismicObject .
+geo:chaotic a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:transparent .
+geo:debris_flow a lb:SeismicObject .
+geo:transparent a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:blocky .
+geo:debris_flow a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:massive .
+geo:debris_flow a lb:SeismicObject .
+geo:massive a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:hummocky .
+geo:debris_flow a lb:SeismicObject .
+geo:hummocky a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:discontinuous .
+geo:debris_flow a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:high_amplitude .
+geo:debris_flow a lb:SeismicObject .
+geo:high_amplitude a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:low_amplitude .
+geo:debris_flow a lb:SeismicObject .
+geo:low_amplitude a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:layered .
+geo:debris_flow a lb:SeismicObject .
+geo:layered a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:debris_flow lb:hasDescriptor geo:parallel .
+geo:debris_flow a lb:SeismicObject .
+geo:parallel a lb:Descriptor .
+geo:query_3049228412 a prov:Entity .
+geo:query_3049228412 rdfs:label "What are the seismic characteristics of debris flow deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:debris_flow prov:wasDerivedFrom geo:query_3049228412 .
+geo:upper_surface lb:hasDescriptor geo:discontinuous .
+geo:upper_surface a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_9870244990 a prov:Entity .
+geo:query_9870244990 rdfs:label "Describe the seismic character of the upper surface of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:upper_surface prov:wasDerivedFrom geo:query_9870244990 .
+geo:upper_surface lb:hasDescriptor geo:low_amplitude .
+geo:upper_surface a lb:SeismicObject .
+geo:low_amplitude a lb:Descriptor .
+geo:query_9870244990 a prov:Entity .
+geo:query_9870244990 rdfs:label "Describe the seismic character of the upper surface of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:upper_surface prov:wasDerivedFrom geo:query_9870244990 .
+geo:hemipelagic_background lb:hasDescriptor geo:layered .
+geo:hemipelagic_background a lb:SeismicObject .
+geo:layered a lb:Descriptor .
+geo:query_828196915 a prov:Entity .
+geo:query_828196915 rdfs:label "In the context of hemipelagic background, what seismic facies show layered and continuous characteristics?" .
+geo:hemipelagic_background prov:wasDerivedFrom geo:query_828196915 .
+geo:hemipelagic_background lb:hasDescriptor geo:continuous .
+geo:hemipelagic_background a lb:SeismicObject .
+geo:continuous a lb:Descriptor .
+geo:query_828196915 a prov:Entity .
+geo:query_828196915 rdfs:label "In the context of hemipelagic background, what seismic facies show layered and continuous characteristics?" .
+geo:hemipelagic_background prov:wasDerivedFrom geo:query_828196915 .
+geo:mass_transport_deposit lb:hasDescriptor geo:discontinuous .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_6945919907 a prov:Entity .
+geo:query_6945919907 rdfs:label "What geological objects or features are described as discontinuous in seismic data? Which deposits show discontinuous character?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6945919907 .
+geo:slope_attached_mass_transport_deposit lb:hasDescriptor geo:discontinuous .
+geo:slope_attached_mass_transport_deposit a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_6945919907 a prov:Entity .
+geo:query_6945919907 rdfs:label "What geological objects or features are described as discontinuous in seismic data? Which deposits show discontinuous character?" .
+geo:slope_attached_mass_transport_deposit prov:wasDerivedFrom geo:query_6945919907 .
+geo:slope_failure lb:causes geo:deposits .
+geo:slope_failure a lb:Process .
+geo:deposits a lb:Process .
+geo:query_4677283196 a prov:Entity .
+geo:query_4677283196 rdfs:label "What happens after slope failure? What deposits form?" .
+geo:slope_failure prov:wasDerivedFrom geo:query_4677283196 .
+geo:debris_flow lb:occursIn geo:deep_water_environments .
+geo:debris_flow a lb:SeismicObject .
+geo:deep_water_environments a lb:Setting .
+geo:query_9049629285 a prov:Entity .
+geo:query_9049629285 rdfs:label "Where does debris flow deposit occur? In what geological setting or environment?" .
+geo:debris_flow prov:wasDerivedFrom geo:query_9049629285 .
+geo:seismic_loading lb:affects geo:slope_failure .
+geo:seismic_loading a lb:Process .
+geo:slope_failure a lb:Process .
+geo:query_3605338645 a prov:Entity .
+geo:query_3605338645 rdfs:label "How does seismic loading affect or cause slope failure in mass transport deposits?" .
+geo:seismic_loading prov:wasDerivedFrom geo:query_3605338645 .
+geo:flow_behavior lb:affects geo:internal_facies .
+geo:flow_behavior a lb:Process .
+geo:internal_facies a lb:Descriptor .
+geo:query_2077387146 a prov:Entity .
+geo:query_2077387146 rdfs:label "How does flow behavior affect or cause internal facies in mass transport deposits?" .
+geo:flow_behavior prov:wasDerivedFrom geo:query_2077387146 .
+geo:fluid_overpressure lb:triggers geo:slope_failure .
+geo:fluid_overpressure a lb:Process .
+geo:slope_failure a lb:Process .
+geo:query_9561061990 a prov:Entity .
+geo:query_9561061990 rdfs:label "What is the relationship between fluid overpressure and slope failure in MTDs?" .
+geo:fluid_overpressure prov:wasDerivedFrom geo:query_9561061990 .
+geo:submarine_landslide lb:hasDescriptor geo:chaotic .
+geo:submarine_landslide a lb:SeismicObject .
+geo:chaotic a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:transparent .
+geo:submarine_landslide a lb:SeismicObject .
+geo:transparent a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:blocky .
+geo:submarine_landslide a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:massive .
+geo:submarine_landslide a lb:SeismicObject .
+geo:massive a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:hummocky .
+geo:submarine_landslide a lb:SeismicObject .
+geo:hummocky a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:discontinuous .
+geo:submarine_landslide a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:high_amplitude .
+geo:submarine_landslide a lb:SeismicObject .
+geo:high_amplitude a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:low_amplitude .
+geo:submarine_landslide a lb:SeismicObject .
+geo:low_amplitude a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:layered .
+geo:submarine_landslide a lb:SeismicObject .
+geo:layered a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:submarine_landslide lb:hasDescriptor geo:parallel .
+geo:submarine_landslide a lb:SeismicObject .
+geo:parallel a lb:Descriptor .
+geo:query_5123880318 a prov:Entity .
+geo:query_5123880318 rdfs:label "What are the seismic characteristics of submarine landslide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_5123880318 .
+geo:mass_transport_deposit lb:hasDescriptor geo:chaotic .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:chaotic a lb:Descriptor .
+geo:query_6970742106 a prov:Entity .
+geo:query_6970742106 rdfs:label "Describe the seismic character of the internal facies of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6970742106 .
+geo:mass_transport_deposit lb:hasDescriptor geo:blocky .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_6970742106 a prov:Entity .
+geo:query_6970742106 rdfs:label "Describe the seismic character of the internal facies of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6970742106 .
+geo:mass_transport_deposit lb:hasDescriptor geo:elongated .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:elongated a lb:Descriptor .
+geo:query_6970742106 a prov:Entity .
+geo:query_6970742106 rdfs:label "Describe the seismic character of the internal facies of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6970742106 .
+geo:mass_transport_deposit lb:hasDescriptor geo:lobate .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:lobate a lb:Descriptor .
+geo:query_6970742106 a prov:Entity .
+geo:query_6970742106 rdfs:label "Describe the seismic character of the internal facies of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6970742106 .
+geo:mass_transport_deposit lb:hasDescriptor geo:deformed .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:deformed a lb:Descriptor .
+geo:query_6970742106 a prov:Entity .
+geo:query_6970742106 rdfs:label "Describe the seismic character of the internal facies of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6970742106 .
+geo:deformed_strata lb:hasDescriptor geo:discontinuous .
+geo:deformed_strata a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_7648656857 a prov:Entity .
+geo:query_7648656857 rdfs:label "In the context of deformed strata, what seismic facies show discontinuous and disrupted characteristics?" .
+geo:deformed_strata prov:wasDerivedFrom geo:query_7648656857 .
+geo:deformed_strata lb:hasDescriptor geo:disrupted .
+geo:deformed_strata a lb:SeismicObject .
+geo:disrupted a lb:Descriptor .
+geo:query_7648656857 a prov:Entity .
+geo:query_7648656857 rdfs:label "In the context of deformed strata, what seismic facies show discontinuous and disrupted characteristics?" .
+geo:deformed_strata prov:wasDerivedFrom geo:query_7648656857 .
+geo:mass_transport_deposit lb:hasDescriptor geo:layered .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:layered a lb:Descriptor .
+geo:query_6940511703 a prov:Entity .
+geo:query_6940511703 rdfs:label "What geological objects or features are described as layered in seismic data? Which deposits show layered character?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6940511703 .
+geo:debris_flow lb:causes geo:turbidity_current .
+geo:debris_flow a lb:Process .
+geo:turbidity_current a lb:Process .
+geo:query_8517607654 a prov:Entity .
+geo:query_8517607654 rdfs:label "How do debris flows transition into turbidity currents?" .
+geo:debris_flow prov:wasDerivedFrom geo:query_8517607654 .
+geo:mass_transport_deposit lb:occursIn geo:deep_water_environments .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:deep_water_environments a lb:Setting .
+geo:query_6821956789 a prov:Entity .
+geo:query_6821956789 rdfs:label "Where does mass transport deposit occur? In what geological setting or environment?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6821956789 .
+geo:headscarp lb:partOf geo:mass_transport_deposit .
+geo:headscarp a lb:SeismicObject .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:query_186457530 a prov:Entity .
+geo:query_186457530 rdfs:label "What are the main structural parts of a mass transport deposit? headscarp, body, toe" .
+geo:headscarp prov:wasDerivedFrom geo:query_186457530 .
+geo:gas_hydrate_dissociation lb:causes geo:slope_instability .
+geo:gas_hydrate_dissociation a lb:Process .
+geo:slope_instability a lb:Process .
+geo:query_4226270524 a prov:Entity .
+geo:query_4226270524 rdfs:label "How does gas hydrate dissociation affect or cause slope instability in mass transport deposits?" .
+geo:gas_hydrate_dissociation prov:wasDerivedFrom geo:query_4226270524 .
+geo:sedimentation_rate lb:causes geo:thickness .
+geo:sedimentation_rate a lb:Process .
+geo:thickness a lb:Descriptor .
+geo:query_2006185662 a prov:Entity .
+geo:query_2006185662 rdfs:label "How does sedimentation rate affect or cause thickness in mass transport deposits?" .
+geo:sedimentation_rate prov:wasDerivedFrom geo:query_2006185662 .
+geo:seismic_loading lb:triggers geo:slope_failure .
+geo:seismic_loading a lb:Process .
+geo:slope_failure a lb:Process .
+geo:query_882347682 a prov:Entity .
+geo:query_882347682 rdfs:label "What is the relationship between seismic shaking and slope failure in MTDs?" .
+geo:seismic_loading prov:wasDerivedFrom geo:query_882347682 .
+geo:seismic_loading lb:causes geo:slope_failure .
+geo:seismic_loading a lb:Process .
+geo:slope_failure a lb:Process .
+geo:query_882347682 a prov:Entity .
+geo:query_882347682 rdfs:label "What is the relationship between seismic shaking and slope failure in MTDs?" .
+geo:seismic_loading prov:wasDerivedFrom geo:query_882347682 .
+geo:slide lb:hasDescriptor geo:chaotic .
+geo:slide a lb:SeismicObject .
+geo:chaotic a lb:Descriptor .
+geo:query_8778302937 a prov:Entity .
+geo:query_8778302937 rdfs:label "What are the seismic characteristics of slide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slide prov:wasDerivedFrom geo:query_8778302937 .
+geo:slide lb:hasDescriptor geo:blocky .
+geo:slide a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_8778302937 a prov:Entity .
+geo:query_8778302937 rdfs:label "What are the seismic characteristics of slide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slide prov:wasDerivedFrom geo:query_8778302937 .
+geo:slide lb:hasDescriptor geo:discontinuous .
+geo:slide a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_8778302937 a prov:Entity .
+geo:query_8778302937 rdfs:label "What are the seismic characteristics of slide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slide prov:wasDerivedFrom geo:query_8778302937 .
+geo:slide lb:hasDescriptor geo:high_amplitude .
+geo:slide a lb:SeismicObject .
+geo:high_amplitude a lb:Descriptor .
+geo:query_8778302937 a prov:Entity .
+geo:query_8778302937 rdfs:label "What are the seismic characteristics of slide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slide prov:wasDerivedFrom geo:query_8778302937 .
+geo:slide lb:hasDescriptor geo:low_amplitude .
+geo:slide a lb:SeismicObject .
+geo:low_amplitude a lb:Descriptor .
+geo:query_8778302937 a prov:Entity .
+geo:query_8778302937 rdfs:label "What are the seismic characteristics of slide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slide prov:wasDerivedFrom geo:query_8778302937 .
+geo:slide lb:hasDescriptor geo:layered .
+geo:slide a lb:SeismicObject .
+geo:layered a lb:Descriptor .
+geo:query_8778302937 a prov:Entity .
+geo:query_8778302937 rdfs:label "What are the seismic characteristics of slide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slide prov:wasDerivedFrom geo:query_8778302937 .
+geo:slide lb:hasDescriptor geo:parallel .
+geo:slide a lb:SeismicObject .
+geo:parallel a lb:Descriptor .
+geo:query_8778302937 a prov:Entity .
+geo:query_8778302937 rdfs:label "What are the seismic characteristics of slide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slide prov:wasDerivedFrom geo:query_8778302937 .
+geo:slide lb:hasDescriptor geo:transparent .
+geo:slide a lb:SeismicObject .
+geo:transparent a lb:Descriptor .
+geo:query_8778302937 a prov:Entity .
+geo:query_8778302937 rdfs:label "What are the seismic characteristics of slide? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slide prov:wasDerivedFrom geo:query_8778302937 .
+geo:headscarp lb:hasDescriptor geo:discontinuous .
+geo:headscarp a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_2788535385 a prov:Entity .
+geo:query_2788535385 rdfs:label "Describe the seismic character of the headscarp of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:headscarp prov:wasDerivedFrom geo:query_2788535385 .
+geo:headscarp lb:hasDescriptor geo:stepped .
+geo:headscarp a lb:SeismicObject .
+geo:stepped a lb:Descriptor .
+geo:query_2788535385 a prov:Entity .
+geo:query_2788535385 rdfs:label "Describe the seismic character of the headscarp of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:headscarp prov:wasDerivedFrom geo:query_2788535385 .
+geo:headscarp lb:hasDescriptor geo:elongated .
+geo:headscarp a lb:SeismicObject .
+geo:elongated a lb:Descriptor .
+geo:query_2788535385 a prov:Entity .
+geo:query_2788535385 rdfs:label "Describe the seismic character of the headscarp of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:headscarp prov:wasDerivedFrom geo:query_2788535385 .
+geo:mass_transport_deposit lb:hasDescriptor geo:parallel .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:parallel a lb:Descriptor .
+geo:query_8429115990 a prov:Entity .
+geo:query_8429115990 rdfs:label "What geological objects or features are described as parallel in seismic data? Which deposits show parallel character?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_8429115990 .
+geo:seismic_loading lb:triggers geo:slides .
+geo:seismic_loading a lb:Process .
+geo:slides a lb:SeismicObject .
+geo:query_4338294039 a prov:Entity .
+geo:query_4338294039 rdfs:label "What is the sequence from trigger to deposit in mass wasting?" .
+geo:seismic_loading prov:wasDerivedFrom geo:query_4338294039 .
+geo:mass_transport_complex lb:occursIn geo:deep_water_environments .
+geo:mass_transport_complex a lb:SeismicObject .
+geo:deep_water_environments a lb:Setting .
+geo:query_956210705 a prov:Entity .
+geo:query_956210705 rdfs:label "Where does mass transport complex occur? In what geological setting or environment?" .
+geo:mass_transport_complex prov:wasDerivedFrom geo:query_956210705 .
+geo:rapid_sedimentation lb:causes geo:fluid_overpressure .
+geo:rapid_sedimentation a lb:Process .
+geo:fluid_overpressure a lb:Process .
+geo:query_9789660486 a prov:Entity .
+geo:query_9789660486 rdfs:label "How does rapid sedimentation affect or cause fluid overpressure in mass transport deposits?" .
+geo:rapid_sedimentation prov:wasDerivedFrom geo:query_9789660486 .
+geo:topographic_confinement lb:controls geo:morphology .
+geo:topographic_confinement a lb:Process .
+geo:morphology a lb:Descriptor .
+geo:query_2656687901 a prov:Entity .
+geo:query_2656687901 rdfs:label "How does topographic confinement affect or cause morphology in mass transport deposits?" .
+geo:topographic_confinement prov:wasDerivedFrom geo:query_2656687901 .
+geo:gas_expulsion_through_pockmarks lb:affects geo:acoustic_property .
+geo:gas_expulsion_through_pockmarks a lb:Process .
+geo:acoustic_property a lb:Descriptor .
+geo:query_3794690608 a prov:Entity .
+geo:query_3794690608 rdfs:label "How does fluid migration affect or cause acoustic property in mass transport deposits?" .
+geo:gas_expulsion_through_pockmarks prov:wasDerivedFrom geo:query_3794690608 .
+geo:gas_migration lb:affects geo:acoustic_property .
+geo:gas_migration a lb:Process .
+geo:acoustic_property a lb:Descriptor .
+geo:query_3794690608 a prov:Entity .
+geo:query_3794690608 rdfs:label "How does fluid migration affect or cause acoustic property in mass transport deposits?" .
+geo:gas_migration prov:wasDerivedFrom geo:query_3794690608 .
+geo:rapid_burial lb:causes geo:fluid_overpressure .
+geo:rapid_burial a lb:Process .
+geo:fluid_overpressure a lb:Process .
+geo:query_2376545349 a prov:Entity .
+geo:query_2376545349 rdfs:label "What is the relationship between rapid burial and overpressure in MTDs?" .
+geo:rapid_burial prov:wasDerivedFrom geo:query_2376545349 .
+geo:slump lb:hasDescriptor geo:chaotic .
+geo:slump a lb:SeismicObject .
+geo:chaotic a lb:Descriptor .
+geo:query_9809253253 a prov:Entity .
+geo:query_9809253253 rdfs:label "What are the seismic characteristics of slump? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slump prov:wasDerivedFrom geo:query_9809253253 .
+geo:slump lb:hasDescriptor geo:transparent .
+geo:slump a lb:SeismicObject .
+geo:transparent a lb:Descriptor .
+geo:query_9809253253 a prov:Entity .
+geo:query_9809253253 rdfs:label "What are the seismic characteristics of slump? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slump prov:wasDerivedFrom geo:query_9809253253 .
+geo:slump lb:hasDescriptor geo:blocky .
+geo:slump a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_9809253253 a prov:Entity .
+geo:query_9809253253 rdfs:label "What are the seismic characteristics of slump? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slump prov:wasDerivedFrom geo:query_9809253253 .
+geo:slump lb:hasDescriptor geo:discontinuous .
+geo:slump a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_9809253253 a prov:Entity .
+geo:query_9809253253 rdfs:label "What are the seismic characteristics of slump? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slump prov:wasDerivedFrom geo:query_9809253253 .
+geo:slump lb:hasDescriptor geo:high_amplitude .
+geo:slump a lb:SeismicObject .
+geo:high_amplitude a lb:Descriptor .
+geo:query_9809253253 a prov:Entity .
+geo:query_9809253253 rdfs:label "What are the seismic characteristics of slump? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slump prov:wasDerivedFrom geo:query_9809253253 .
+geo:slump lb:hasDescriptor geo:low_amplitude .
+geo:slump a lb:SeismicObject .
+geo:low_amplitude a lb:Descriptor .
+geo:query_9809253253 a prov:Entity .
+geo:query_9809253253 rdfs:label "What are the seismic characteristics of slump? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slump prov:wasDerivedFrom geo:query_9809253253 .
+geo:slump lb:hasDescriptor geo:layered .
+geo:slump a lb:SeismicObject .
+geo:layered a lb:Descriptor .
+geo:query_9809253253 a prov:Entity .
+geo:query_9809253253 rdfs:label "What are the seismic characteristics of slump? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slump prov:wasDerivedFrom geo:query_9809253253 .
+geo:slump lb:hasDescriptor geo:parallel .
+geo:slump a lb:SeismicObject .
+geo:parallel a lb:Descriptor .
+geo:query_9809253253 a prov:Entity .
+geo:query_9809253253 rdfs:label "What are the seismic characteristics of slump? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:slump prov:wasDerivedFrom geo:query_9809253253 .
+geo:mass_transport_complex lb:hasDescriptor geo:continuous .
+geo:mass_transport_complex a lb:SeismicObject .
+geo:continuous a lb:Descriptor .
+geo:query_4162275380 a prov:Entity .
+geo:query_4162275380 rdfs:label "What geological objects or features are described as continuous in seismic data? Which deposits show continuous character?" .
+geo:mass_transport_complex prov:wasDerivedFrom geo:query_4162275380 .
+geo:turbidite lb:hasDescriptor geo:continuous .
+geo:turbidite a lb:SeismicObject .
+geo:continuous a lb:Descriptor .
+geo:query_4162275380 a prov:Entity .
+geo:query_4162275380 rdfs:label "What geological objects or features are described as continuous in seismic data? Which deposits show continuous character?" .
+geo:turbidite prov:wasDerivedFrom geo:query_4162275380 .
+geo:wave_loading lb:affects geo:sediment_remobilization .
+geo:wave_loading a lb:Process .
+geo:sediment_remobilization a lb:Process .
+geo:query_4073292868 a prov:Entity .
+geo:query_4073292868 rdfs:label "How does wave loading affect or cause sediment remobilization in mass transport deposits?" .
+geo:wave_loading prov:wasDerivedFrom geo:query_4073292868 .
+geo:storm_waves lb:triggers geo:sediment_remobilization .
+geo:storm_waves a lb:Process .
+geo:sediment_remobilization a lb:Process .
+geo:query_4073292868 a prov:Entity .
+geo:query_4073292868 rdfs:label "How does wave loading affect or cause sediment remobilization in mass transport deposits?" .
+geo:storm_waves prov:wasDerivedFrom geo:query_4073292868 .
+geo:erosion_of_substrate lb:affects geo:basal_surface_character .
+geo:erosion_of_substrate a lb:Process .
+geo:basal_surface_character a lb:SeismicObject .
+geo:query_7021214443 a prov:Entity .
+geo:query_7021214443 rdfs:label "What is the relationship between erosion of substrate and basal surface character in MTDs?" .
+geo:erosion_of_substrate prov:wasDerivedFrom geo:query_7021214443 .
+geo:channel_levee lb:hasDescriptor geo:chaotic .
+geo:channel_levee a lb:SeismicObject .
+geo:chaotic a lb:Descriptor .
+geo:query_7073709635 a prov:Entity .
+geo:query_7073709635 rdfs:label "What are the seismic characteristics of channel levee? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:channel_levee prov:wasDerivedFrom geo:query_7073709635 .
+geo:channel_levee lb:hasDescriptor geo:blocky .
+geo:channel_levee a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_7073709635 a prov:Entity .
+geo:query_7073709635 rdfs:label "What are the seismic characteristics of channel levee? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:channel_levee prov:wasDerivedFrom geo:query_7073709635 .
+geo:channel_levee lb:hasDescriptor geo:discontinuous .
+geo:channel_levee a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_7073709635 a prov:Entity .
+geo:query_7073709635 rdfs:label "What are the seismic characteristics of channel levee? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:channel_levee prov:wasDerivedFrom geo:query_7073709635 .
+geo:channel_levee lb:hasDescriptor geo:high_amplitude .
+geo:channel_levee a lb:SeismicObject .
+geo:high_amplitude a lb:Descriptor .
+geo:query_7073709635 a prov:Entity .
+geo:query_7073709635 rdfs:label "What are the seismic characteristics of channel levee? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:channel_levee prov:wasDerivedFrom geo:query_7073709635 .
+geo:turbidite lb:formedBy geo:turbidity_current .
+geo:turbidite a lb:SeismicObject .
+geo:turbidity_current a lb:Process .
+geo:query_2027643770 a prov:Entity .
+geo:query_2027643770 rdfs:label "Where does turbidite occur? In what geological setting or environment?" .
+geo:turbidite prov:wasDerivedFrom geo:query_2027643770 .
+geo:turbidite lb:occursIn geo:deep_water .
+geo:turbidite a lb:SeismicObject .
+geo:deep_water a lb:Setting .
+geo:query_2027643770 a prov:Entity .
+geo:query_2027643770 rdfs:label "Where does turbidite occur? In what geological setting or environment?" .
+geo:turbidite prov:wasDerivedFrom geo:query_2027643770 .
+geo:mass_transport_deposit lb:partOf geo:mass_transport_complex .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:mass_transport_complex a lb:SeismicObject .
+geo:query_6586996795 a prov:Entity .
+geo:query_6586996795 rdfs:label "What are the components of a mass transport complex?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_6586996795 .
+geo:burial_compaction lb:controls geo:thickness .
+geo:burial_compaction a lb:Process .
+geo:thickness a lb:Descriptor .
+geo:query_6253852085 a prov:Entity .
+geo:query_6253852085 rdfs:label "How does burial compaction affect or cause thickness in mass transport deposits?" .
+geo:burial_compaction prov:wasDerivedFrom geo:query_6253852085 .
+geo:post_deposition_compaction lb:affects geo:thickness_reduction .
+geo:post_deposition_compaction a lb:Process .
+geo:thickness_reduction a lb:Descriptor .
+geo:query_5144922334 a prov:Entity .
+geo:query_5144922334 rdfs:label "What is the relationship between post-deposition compaction and thickness reduction in MTDs?" .
+geo:post_deposition_compaction prov:wasDerivedFrom geo:query_5144922334 .
+geo:post_deposition_compaction lb:affects geo:thicknesseffectedbycompaction .
+geo:post_deposition_compaction a lb:Process .
+geo:thicknesseffectedbycompaction a lb:Descriptor .
+geo:query_5144922334 a prov:Entity .
+geo:query_5144922334 rdfs:label "What is the relationship between post-deposition compaction and thickness reduction in MTDs?" .
+geo:post_deposition_compaction prov:wasDerivedFrom geo:query_5144922334 .
+geo:mass_transport_deposit lb:hasDescriptor geo:disrupted_continuity .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:disrupted_continuity a lb:Descriptor .
+geo:query_1267529172 a prov:Entity .
+geo:query_1267529172 rdfs:label "Describe the seismic character of the morphology of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_1267529172 .
+geo:intact_rafted_blocks lb:hasDescriptor geo:blocky .
+geo:intact_rafted_blocks a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_7649663517 a prov:Entity .
+geo:query_7649663517 rdfs:label "In the context of MTD intact rafted blocks, what seismic facies show blocky and preserved blocks characteristics?" .
+geo:intact_rafted_blocks prov:wasDerivedFrom geo:query_7649663517 .
+geo:remnant_and_rafted_blocks lb:hasDescriptor geo:blocky .
+geo:remnant_and_rafted_blocks a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_1173998725 a prov:Entity .
+geo:query_1173998725 rdfs:label "What geological objects or features are described as blocky in seismic data? Which deposits show blocky character?" .
+geo:remnant_and_rafted_blocks prov:wasDerivedFrom geo:query_1173998725 .
+geo:mass_transport_deposit lb:hasDescriptor geo:low_amplitude .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:low_amplitude a lb:Descriptor .
+geo:query_5132943139 a prov:Entity .
+geo:query_5132943139 rdfs:label "What geological objects or features are described as low-amplitude in seismic data? Which deposits show low-amplitude character?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_5132943139 .
+geo:submarine_landslide lb:occursIn geo:south_china_sea .
+geo:submarine_landslide a lb:SeismicObject .
+geo:south_china_sea a lb:Setting .
+geo:query_2665666920 a prov:Entity .
+geo:query_2665666920 rdfs:label "Where does submarine landslide occur? In what geological setting or environment?" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_2665666920 .
+geo:submarine_landslide lb:occursIn geo:mid_to_upper_slope .
+geo:submarine_landslide a lb:SeismicObject .
+geo:mid_to_upper_slope a lb:Setting .
+geo:query_2665666920 a prov:Entity .
+geo:query_2665666920 rdfs:label "Where does submarine landslide occur? In what geological setting or environment?" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_2665666920 .
+geo:submarine_landslide lb:occursIn geo:shelf_edge .
+geo:submarine_landslide a lb:SeismicObject .
+geo:shelf_edge a lb:Setting .
+geo:query_2665666920 a prov:Entity .
+geo:query_2665666920 rdfs:label "Where does submarine landslide occur? In what geological setting or environment?" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_2665666920 .
+geo:submarine_landslide lb:occursIn geo:deep_water_environments .
+geo:submarine_landslide a lb:SeismicObject .
+geo:deep_water_environments a lb:Setting .
+geo:query_2665666920 a prov:Entity .
+geo:query_2665666920 rdfs:label "Where does submarine landslide occur? In what geological setting or environment?" .
+geo:submarine_landslide prov:wasDerivedFrom geo:query_2665666920 .
+geo:grand_banks_landslide lb:underlies geo:seafloor .
+geo:grand_banks_landslide a lb:SeismicObject .
+geo:seafloor a lb:Basin .
+geo:query_6035021214 a prov:Entity .
+geo:query_6035021214 rdfs:label "Where do debris flows typically occur in a basin?" .
+geo:grand_banks_landslide prov:wasDerivedFrom geo:query_6035021214 .
+geo:debris_flow lb:affects geo:erosion .
+geo:debris_flow a lb:Process .
+geo:erosion a lb:Process .
+geo:query_7094662210 a prov:Entity .
+geo:query_7094662210 rdfs:label "How does debris flow affect or cause erosion in mass transport deposits?" .
+geo:debris_flow prov:wasDerivedFrom geo:query_7094662210 .
+geo:frontal_compression lb:affects geo:upper_surface_elevation .
+geo:frontal_compression a lb:Process .
+geo:upper_surface_elevation a lb:SeismicObject .
+geo:query_5994458825 a prov:Entity .
+geo:query_5994458825 rdfs:label "How does frontal compression affect or cause upper surface in mass transport deposits?" .
+geo:frontal_compression prov:wasDerivedFrom geo:query_5994458825 .
+geo:sedimentation_rate lb:controls geo:slope_instability .
+geo:sedimentation_rate a lb:Process .
+geo:slope_instability a lb:Process .
+geo:query_1490591643 a prov:Entity .
+geo:query_1490591643 rdfs:label "What is the relationship between sedimentation rate and slope instability in MTDs?" .
+geo:sedimentation_rate prov:wasDerivedFrom geo:query_1490591643 .
+geo:mass_transport_deposit lb:hasDescriptor geo:transparent .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:transparent a lb:Descriptor .
+geo:query_3737132345 a prov:Entity .
+geo:query_3737132345 rdfs:label "What are the seismic characteristics of mass transport deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_3737132345 .
+geo:mass_transport_deposit lb:hasDescriptor geo:massive .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:massive a lb:Descriptor .
+geo:query_3737132345 a prov:Entity .
+geo:query_3737132345 rdfs:label "What are the seismic characteristics of mass transport deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_3737132345 .
+geo:mass_transport_deposit lb:hasDescriptor geo:hummocky .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:hummocky a lb:Descriptor .
+geo:query_3737132345 a prov:Entity .
+geo:query_3737132345 rdfs:label "What are the seismic characteristics of mass transport deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_3737132345 .
+geo:mass_transport_deposit lb:hasDescriptor geo:high_amplitude .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:high_amplitude a lb:Descriptor .
+geo:query_3737132345 a prov:Entity .
+geo:query_3737132345 rdfs:label "What are the seismic characteristics of mass transport deposit? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_3737132345 .
+geo:upper_surface lb:hasDescriptor geo:hummocky .
+geo:upper_surface a lb:SeismicObject .
+geo:hummocky a lb:Descriptor .
+geo:query_8653828551 a prov:Entity .
+geo:query_8653828551 rdfs:label "In the context of MTD upper surface, what seismic facies show hummocky and irregular characteristics?" .
+geo:upper_surface prov:wasDerivedFrom geo:query_8653828551 .
+geo:upper_surface lb:hasDescriptor geo:irregular .
+geo:upper_surface a lb:SeismicObject .
+geo:irregular a lb:Descriptor .
+geo:query_8653828551 a prov:Entity .
+geo:query_8653828551 rdfs:label "In the context of MTD upper surface, what seismic facies show hummocky and irregular characteristics?" .
+geo:upper_surface prov:wasDerivedFrom geo:query_8653828551 .
+geo:flow_transformation lb:affects geo:deposit_character .
+geo:flow_transformation a lb:Process .
+geo:deposit_character a lb:Descriptor .
+geo:query_4798727484 a prov:Entity .
+geo:query_4798727484 rdfs:label "How does flow transformation affect deposit character?" .
+geo:flow_transformation prov:wasDerivedFrom geo:query_4798727484 .
+geo:slide lb:overlies geo:mass_transport_deposit .
+geo:slide a lb:SeismicObject .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:query_8837677269 a prov:Entity .
+geo:query_8837677269 rdfs:label "Where does slide occur? In what geological setting or environment?" .
+geo:slide prov:wasDerivedFrom geo:query_8837677269 .
+geo:turbidite lb:underlies geo:submarine_mass_movement .
+geo:turbidite a lb:SeismicObject .
+geo:submarine_mass_movement a lb:MassMovement .
+geo:query_1163883878 a prov:Entity .
+geo:query_1163883878 rdfs:label "What depositional environments are associated with turbidites?" .
+geo:turbidite prov:wasDerivedFrom geo:query_1163883878 .
+geo:turbidite lb:overlies geo:mass_movement .
+geo:turbidite a lb:SeismicObject .
+geo:mass_movement a lb:MassMovement .
+geo:query_1163883878 a prov:Entity .
+geo:query_1163883878 rdfs:label "What depositional environments are associated with turbidites?" .
+geo:turbidite prov:wasDerivedFrom geo:query_1163883878 .
+geo:turbidite lb:overlies geo:slope_failure .
+geo:turbidite a lb:SeismicObject .
+geo:slope_failure a lb:Setting .
+geo:query_1163883878 a prov:Entity .
+geo:query_1163883878 rdfs:label "What depositional environments are associated with turbidites?" .
+geo:turbidite prov:wasDerivedFrom geo:query_1163883878 .
+geo:turbidity_current lb:affects geo:deposition .
+geo:turbidity_current a lb:Process .
+geo:deposition a lb:Process .
+geo:query_3350094924 a prov:Entity .
+geo:query_3350094924 rdfs:label "How does turbidity current affect or cause deposition in mass transport deposits?" .
+geo:turbidity_current prov:wasDerivedFrom geo:query_3350094924 .
+geo:topographic_confinement lb:controls geo:deposit_morphology .
+geo:topographic_confinement a lb:Process .
+geo:deposit_morphology a lb:Descriptor .
+geo:query_1209895899 a prov:Entity .
+geo:query_1209895899 rdfs:label "What is the relationship between topographic confinement and deposit morphology in MTDs?" .
+geo:topographic_confinement prov:wasDerivedFrom geo:query_1209895899 .
+geo:turbidite lb:hasDescriptor geo:chaotic .
+geo:turbidite a lb:SeismicObject .
+geo:chaotic a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:blocky .
+geo:turbidite a lb:SeismicObject .
+geo:blocky a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:discontinuous .
+geo:turbidite a lb:SeismicObject .
+geo:discontinuous a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:high_amplitude .
+geo:turbidite a lb:SeismicObject .
+geo:high_amplitude a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:low_amplitude .
+geo:turbidite a lb:SeismicObject .
+geo:low_amplitude a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:layered .
+geo:turbidite a lb:SeismicObject .
+geo:layered a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:parallel .
+geo:turbidite a lb:SeismicObject .
+geo:parallel a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:transparent .
+geo:turbidite a lb:SeismicObject .
+geo:transparent a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:massive .
+geo:turbidite a lb:SeismicObject .
+geo:massive a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:turbidite lb:hasDescriptor geo:hummocky .
+geo:turbidite a lb:SeismicObject .
+geo:hummocky a lb:Descriptor .
+geo:query_7349300579 a prov:Entity .
+geo:query_7349300579 rdfs:label "What are the seismic characteristics of turbidite? Consider: chaotic, transparent, blocky, massive, hummocky, discontinuous, high-amplitude, low-amplitude, layered, parallel" .
+geo:turbidite prov:wasDerivedFrom geo:query_7349300579 .
+geo:basal_surface lb:hasDescriptor geo:disrupted .
+geo:basal_surface a lb:SeismicObject .
+geo:disrupted a lb:Descriptor .
+geo:query_4782268303 a prov:Entity .
+geo:query_4782268303 rdfs:label "Describe the seismic character of the basal surface of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:basal_surface prov:wasDerivedFrom geo:query_4782268303 .
+geo:basal_surface lb:hasDescriptor geo:stepped .
+geo:basal_surface a lb:SeismicObject .
+geo:stepped a lb:Descriptor .
+geo:query_4782268303 a prov:Entity .
+geo:query_4782268303 rdfs:label "Describe the seismic character of the basal surface of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:basal_surface prov:wasDerivedFrom geo:query_4782268303 .
+geo:basal_surface lb:hasDescriptor geo:elongated .
+geo:basal_surface a lb:SeismicObject .
+geo:elongated a lb:Descriptor .
+geo:query_4782268303 a prov:Entity .
+geo:query_4782268303 rdfs:label "Describe the seismic character of the basal surface of mass transport deposits. What reflector patterns, amplitudes, and continuity are observed?" .
+geo:basal_surface prov:wasDerivedFrom geo:query_4782268303 .
+geo:mtd_basal_surface lb:hasDescriptor geo:erosional .
+geo:mtd_basal_surface a lb:SeismicObject .
+geo:erosional a lb:Descriptor .
+geo:query_8482760117 a prov:Entity .
+geo:query_8482760117 rdfs:label "In the context of MTD basal surface, what seismic facies show erosional and high-amplitude characteristics?" .
+geo:mtd_basal_surface prov:wasDerivedFrom geo:query_8482760117 .
+geo:mtd_basal_surface lb:hasDescriptor geo:high_amplitude .
+geo:mtd_basal_surface a lb:SeismicObject .
+geo:high_amplitude a lb:Descriptor .
+geo:query_8482760117 a prov:Entity .
+geo:query_8482760117 rdfs:label "In the context of MTD basal surface, what seismic facies show erosional and high-amplitude characteristics?" .
+geo:mtd_basal_surface prov:wasDerivedFrom geo:query_8482760117 .
+geo:mass_transport_deposit lb:hasDescriptor geo:stratified .
+geo:mass_transport_deposit a lb:SeismicObject .
+geo:stratified a lb:Descriptor .
+geo:query_9789257631 a prov:Entity .
+geo:query_9789257631 rdfs:label "What geological objects or features are described as stratified in seismic data? Which deposits show stratified character?" .
+geo:mass_transport_deposit prov:wasDerivedFrom geo:query_9789257631 .
+geo:sediment lb:hasDescriptor geo:stratified .
+geo:sediment a lb:SeismicObject .
+geo:stratified a lb:Descriptor .
+geo:query_9789257631 a prov:Entity .
+geo:query_9789257631 rdfs:label "What geological objects or features are described as stratified in seismic data? Which deposits show stratified character?" .
+geo:sediment prov:wasDerivedFrom geo:query_9789257631 .
+geo:upper_surface lb:hasDescriptor geo:undeformed .
+geo:upper_surface a lb:SeismicObject .
+geo:undeformed a lb:Descriptor .
+geo:query_4765137210 a prov:Entity .
+geo:query_4765137210 rdfs:label "What seismic features appear undeformed or undisturbed adjacent to mass transport deposits?" .
+geo:upper_surface prov:wasDerivedFrom geo:query_4765137210 .
+geo:slump lb:occursIn geo:deep_water_environments .
+geo:slump a lb:SeismicObject .
+geo:deep_water_environments a lb:Setting .
+geo:query_4552769573 a prov:Entity .
+geo:query_4552769573 rdfs:label "Where does slump occur? In what geological setting or environment?" .
+geo:slump prov:wasDerivedFrom geo:query_4552769573 .

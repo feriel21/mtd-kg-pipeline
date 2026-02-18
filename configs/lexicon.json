@@ -1,0 +1,1016 @@
+[
+  {
+    "concept": "average thickness",
+    "node_type": "Descriptor",
+    "aliases": [
+      "average thickness"
+    ]
+  },
+  {
+    "concept": "basin depocenter position",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "basin depocenter position"
+    ]
+  },
+  {
+    "concept": "BS flat sub-horizontal zone",
+    "node_type": "Descriptor",
+    "aliases": [
+      "BS flat sub-horizontal zone"
+    ]
+  },
+  {
+    "concept": "BS median slope",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "BS median slope"
+    ]
+  },
+  {
+    "concept": "BS ramps",
+    "node_type": "Descriptor",
+    "aliases": [
+      "BS ramps"
+    ]
+  },
+  {
+    "concept": "BS strong amplitude",
+    "node_type": "Evidence",
+    "aliases": [
+      "BS strong amplitude"
+    ]
+  },
+  {
+    "concept": "chaotic facies distribution",
+    "node_type": "Descriptor",
+    "aliases": [
+      "chaotic facies distribution"
+    ]
+  },
+  {
+    "concept": "chemical effects",
+    "node_type": "Descriptor",
+    "aliases": [
+      "chemical effects"
+    ]
+  },
+  {
+    "concept": "compaction during burial",
+    "node_type": "Process",
+    "aliases": [
+      "compaction during burial"
+    ]
+  },
+  {
+    "concept": "deformed facies distribution",
+    "node_type": "Descriptor",
+    "aliases": [
+      "deformed facies distribution"
+    ]
+  },
+  {
+    "concept": "detached MTD",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "detached MTD"
+    ]
+  },
+  {
+    "concept": "erosion of underlying material",
+    "node_type": "Process",
+    "aliases": [
+      "erosion of underlying material"
+    ]
+  },
+  {
+    "concept": "evaporite deformation & mud volcanism",
+    "node_type": "Descriptor",
+    "aliases": [
+      "evaporite deformation & mud volcanism"
+    ]
+  },
+  {
+    "concept": "existing geomorphology, objects and pathways",
+    "node_type": "Descriptor",
+    "aliases": [
+      "existing geomorphology, objects and pathways"
+    ]
+  },
+  {
+    "concept": "faulty facies distribution",
+    "node_type": "Descriptor",
+    "aliases": [
+      "faulty facies distribution"
+    ]
+  },
+  {
+    "concept": "flow behavior: elastic, plastic, fluid",
+    "node_type": "Process",
+    "aliases": [
+      "flow behavior: elastic, plastic, fluid"
+    ]
+  },
+  {
+    "concept": "flow direction",
+    "node_type": "Process",
+    "aliases": [
+      "flow direction"
+    ]
+  },
+  {
+    "concept": "flow velocity and energy",
+    "node_type": "Process",
+    "aliases": [
+      "flow velocity and energy"
+    ]
+  },
+  {
+    "concept": "fluid overpressure in moving mass",
+    "node_type": "Process",
+    "aliases": [
+      "fluid overpressure in moving mass"
+    ]
+  },
+  {
+    "concept": "fluid overpressure on basal surface",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "fluid overpressure on basal surface"
+    ]
+  },
+  {
+    "concept": "fluid overpressure, short term",
+    "node_type": "Process",
+    "aliases": [
+      "fluid overpressure, short term"
+    ]
+  },
+  {
+    "concept": "frontal compression",
+    "node_type": "Descriptor",
+    "aliases": [
+      "frontal compression"
+    ]
+  },
+  {
+    "concept": "grains heterogeneity in flowing mass",
+    "node_type": "Process",
+    "aliases": [
+      "grains heterogeneity in flowing mass"
+    ]
+  },
+  {
+    "concept": "gravity, short term",
+    "node_type": "Descriptor",
+    "aliases": [
+      "gravity, short term"
+    ]
+  },
+  {
+    "concept": "horizontal aspect ratio",
+    "node_type": "Descriptor",
+    "aliases": [
+      "horizontal aspect ratio"
+    ]
+  },
+  {
+    "concept": "HS downslope evolution",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "HS downslope evolution"
+    ]
+  },
+  {
+    "concept": "HS morphology",
+    "node_type": "Descriptor",
+    "aliases": [
+      "HS morphology"
+    ]
+  },
+  {
+    "concept": "inducing seismicity",
+    "node_type": "Process",
+    "aliases": [
+      "inducing seismicity"
+    ]
+  },
+  {
+    "concept": "initial aspect ratio and top of mass slope angle",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "initial aspect ratio and top of mass slope angle"
+    ]
+  },
+  {
+    "concept": "initial potential energy of mass",
+    "node_type": "Descriptor",
+    "aliases": [
+      "initial potential energy of mass"
+    ]
+  },
+  {
+    "concept": "lateral connection to other MTDs",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "lateral connection to other MTDs"
+    ]
+  },
+  {
+    "concept": "lateral distribution of MTDs",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "lateral distribution of MTDs"
+    ]
+  },
+  {
+    "concept": "lateral erosive walls",
+    "node_type": "Descriptor",
+    "aliases": [
+      "lateral erosive walls"
+    ]
+  },
+  {
+    "concept": "lithology distribution in MTD",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "lithology distribution in MTD"
+    ]
+  },
+  {
+    "concept": "lithology in transported mass",
+    "node_type": "Process",
+    "aliases": [
+      "lithology in transported mass"
+    ]
+  },
+  {
+    "concept": "lithology of underlying material downslope",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "lithology of underlying material downslope"
+    ]
+  },
+  {
+    "concept": "lithology of underlying material in source zone",
+    "node_type": "Descriptor",
+    "aliases": [
+      "lithology of underlying material in source zone"
+    ]
+  },
+  {
+    "concept": "local fluidization",
+    "node_type": "Process",
+    "aliases": [
+      "local fluidization"
+    ]
+  },
+  {
+    "concept": "local thickening of flowing material",
+    "node_type": "Process",
+    "aliases": [
+      "local thickening of flowing material"
+    ]
+  },
+  {
+    "concept": "loss of mass",
+    "node_type": "Descriptor",
+    "aliases": [
+      "loss of mass"
+    ]
+  },
+  {
+    "concept": "max. horizontal length",
+    "node_type": "Descriptor",
+    "aliases": [
+      "max. horizontal length"
+    ]
+  },
+  {
+    "concept": "max. horizontal length, if attached",
+    "node_type": "Descriptor",
+    "aliases": [
+      "max. horizontal length, if attached"
+    ]
+  },
+  {
+    "concept": "modifying basin geomorphology",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "modifying basin geomorphology"
+    ]
+  },
+  {
+    "concept": "MTD principal direction",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "MTD principal direction"
+    ]
+  },
+  {
+    "concept": "MTD proportion in sedimentary pile",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "MTD proportion in sedimentary pile"
+    ]
+  },
+  {
+    "concept": "MTD volume",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "MTD volume"
+    ]
+  },
+  {
+    "concept": "multiple terracing downslope",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "multiple terracing downslope"
+    ]
+  },
+  {
+    "concept": "near structural elements laterally",
+    "node_type": "Descriptor",
+    "aliases": [
+      "near structural elements laterally"
+    ]
+  },
+  {
+    "concept": "offshore events and waves",
+    "node_type": "Descriptor",
+    "aliases": [
+      "offshore events and waves"
+    ]
+  },
+  {
+    "concept": "permeability increase",
+    "node_type": "Descriptor",
+    "aliases": [
+      "permeability increase"
+    ]
+  },
+  {
+    "concept": "plowing effect on underlying material",
+    "node_type": "Descriptor",
+    "aliases": [
+      "plowing effect on underlying material"
+    ]
+  },
+  {
+    "concept": "plunging pool effect",
+    "node_type": "Descriptor",
+    "aliases": [
+      "plunging pool effect"
+    ]
+  },
+  {
+    "concept": "plunging pool indicator",
+    "node_type": "Descriptor",
+    "aliases": [
+      "plunging pool indicator"
+    ]
+  },
+  {
+    "concept": "pore pressure increase by compression",
+    "node_type": "Descriptor",
+    "aliases": [
+      "pore pressure increase by compression"
+    ]
+  },
+  {
+    "concept": "pore pressure increase by fluid migration",
+    "node_type": "Descriptor",
+    "aliases": [
+      "pore pressure increase by fluid migration"
+    ]
+  },
+  {
+    "concept": "post deposition of turbidites",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "post deposition of turbidites"
+    ]
+  },
+  {
+    "concept": "post deposition regional deformation",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "post deposition regional deformation"
+    ]
+  },
+  {
+    "concept": "posterior fluid migrations",
+    "node_type": "Descriptor",
+    "aliases": [
+      "posterior fluid migrations"
+    ]
+  },
+  {
+    "concept": "presence of preserved blocks",
+    "node_type": "Descriptor",
+    "aliases": [
+      "presence of preserved blocks"
+    ]
+  },
+  {
+    "concept": "presence of 'tongues' at toe",
+    "node_type": "Descriptor",
+    "aliases": [
+      "presence of 'tongues' at toe"
+    ]
+  },
+  {
+    "concept": "preserved blocks size",
+    "node_type": "Descriptor",
+    "aliases": [
+      "preserved blocks size"
+    ]
+  },
+  {
+    "concept": "principal direction",
+    "node_type": "Descriptor",
+    "aliases": [
+      "principal direction"
+    ]
+  },
+  {
+    "concept": "remobilization",
+    "node_type": "Process",
+    "aliases": [
+      "remobilization"
+    ]
+  },
+  {
+    "concept": "ridged facies distribution",
+    "node_type": "Descriptor",
+    "aliases": [
+      "ridged facies distribution"
+    ]
+  },
+  {
+    "concept": "runout distance",
+    "node_type": "Descriptor",
+    "aliases": [
+      "runout distance"
+    ]
+  },
+  {
+    "concept": "scours, grooves, striations",
+    "node_type": "Descriptor",
+    "aliases": [
+      "scours, grooves, striations"
+    ]
+  },
+  {
+    "concept": "sea level evolution",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "sea level evolution"
+    ]
+  },
+  {
+    "concept": "seafloor effective friction angle",
+    "node_type": "Descriptor",
+    "aliases": [
+      "seafloor effective friction angle"
+    ]
+  },
+  {
+    "concept": "seafloor shapes and dip variations",
+    "node_type": "Descriptor",
+    "aliases": [
+      "seafloor shapes and dip variations"
+    ]
+  },
+  {
+    "concept": "sedimentation rate and type",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "sedimentation rate and type"
+    ]
+  },
+  {
+    "concept": "seismicity or waves, long term",
+    "node_type": "Process",
+    "aliases": [
+      "seismicity or waves, long term"
+    ]
+  },
+  {
+    "concept": "seismicity, short term",
+    "node_type": "Process",
+    "aliases": [
+      "seismicity, short term"
+    ]
+  },
+  {
+    "concept": "source domain in basin",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "source domain in basin"
+    ]
+  },
+  {
+    "concept": "subsidence/uplift, extension/compression",
+    "node_type": "Descriptor",
+    "aliases": [
+      "subsidence/uplift, extension/compression"
+    ]
+  },
+  {
+    "concept": "surface area",
+    "node_type": "Descriptor",
+    "aliases": [
+      "surface area"
+    ]
+  },
+  {
+    "concept": "terminal dispersion",
+    "node_type": "Descriptor",
+    "aliases": [
+      "terminal dispersion"
+    ]
+  },
+  {
+    "concept": "thickness variation",
+    "node_type": "Descriptor",
+    "aliases": [
+      "thickness variation"
+    ]
+  },
+  {
+    "concept": "thrust fault angle increase to toe",
+    "node_type": "Descriptor",
+    "aliases": [
+      "thrust fault angle increase to toe"
+    ]
+  },
+  {
+    "concept": "topography confinement downwards",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "topography confinement downwards"
+    ]
+  },
+  {
+    "concept": "transparent facies distribution",
+    "node_type": "Descriptor",
+    "aliases": [
+      "transparent facies distribution"
+    ]
+  },
+  {
+    "concept": "trigger turbidity current at stop",
+    "node_type": "Process",
+    "aliases": [
+      "trigger turbidity current at stop"
+    ]
+  },
+  {
+    "concept": "triggering cascading mass movements",
+    "node_type": "Process",
+    "aliases": [
+      "triggering cascading mass movements"
+    ]
+  },
+  {
+    "concept": "triggering cascading MTDs",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "triggering cascading MTDs"
+    ]
+  },
+  {
+    "concept": "triggering turbidity current",
+    "node_type": "Process",
+    "aliases": [
+      "triggering turbidity current"
+    ]
+  },
+  {
+    "concept": "triggering turbidity current at stop",
+    "node_type": "Process",
+    "aliases": [
+      "triggering turbidity current at stop"
+    ]
+  },
+  {
+    "concept": "upward connection to other MTDs",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "upward connection to other MTDs"
+    ]
+  },
+  {
+    "concept": "US median slope",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "US median slope"
+    ]
+  },
+  {
+    "concept": "US ramps or ridges",
+    "node_type": "Descriptor",
+    "aliases": [
+      "US ramps or ridges"
+    ]
+  },
+  {
+    "concept": "US with turbidites on top",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "US with turbidites on top"
+    ]
+  },
+  {
+    "concept": "vertical distribution of MTDs",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "vertical distribution of MTDs"
+    ]
+  },
+  {
+    "concept": "volume of transported material",
+    "node_type": "Process",
+    "aliases": [
+      "volume of transported material"
+    ]
+  },
+  {
+    "concept": "width variation",
+    "node_type": "Descriptor",
+    "aliases": [
+      "width variation"
+    ]
+  },
+  {
+    "concept": "mass transport deposit",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "MTD",
+      "mass-transport deposit",
+      "mass transport",
+      "MTC",
+      "mass transport complex"
+    ]
+  },
+  {
+    "concept": "turbidite",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "turbidite deposit",
+      "turbidite bed",
+      "turbidite sand"
+    ]
+  },
+  {
+    "concept": "debris flow deposit",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "debris-flow deposit",
+      "debrite"
+    ]
+  },
+  {
+    "concept": "submarine landslide",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "submarine slide",
+      "underwater landslide"
+    ]
+  },
+  {
+    "concept": "channel",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "submarine channel",
+      "turbidite channel"
+    ]
+  },
+  {
+    "concept": "levee",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "channel levee",
+      "natural levee"
+    ]
+  },
+  {
+    "concept": "fan",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "submarine fan",
+      "deep-sea fan",
+      "turbidite fan"
+    ]
+  },
+  {
+    "concept": "lobe",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "depositional lobe",
+      "terminal lobe"
+    ]
+  },
+  {
+    "concept": "canyon",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "submarine canyon"
+    ]
+  },
+  {
+    "concept": "headscarp",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "head scarp",
+      "headscar",
+      "crown"
+    ]
+  },
+  {
+    "concept": "basal surface",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "BS",
+      "basal shear surface",
+      "glide plane",
+      "décollement"
+    ]
+  },
+  {
+    "concept": "upper surface",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "US",
+      "top surface"
+    ]
+  },
+  {
+    "concept": "megaslide",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "mega-slide"
+    ]
+  },
+  {
+    "concept": "slide",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "translational slide",
+      "rotational slide"
+    ]
+  },
+  {
+    "concept": "slump",
+    "node_type": "Geological_Object",
+    "aliases": [
+      "slump deposit"
+    ]
+  },
+  {
+    "concept": "chaotic",
+    "node_type": "Descriptor",
+    "aliases": [
+      "chaotic reflections",
+      "chaotic facies",
+      "chaotic seismic facies",
+      "disorganized"
+    ]
+  },
+  {
+    "concept": "transparent",
+    "node_type": "Descriptor",
+    "aliases": [
+      "transparent facies",
+      "acoustically transparent",
+      "reflection-free"
+    ]
+  },
+  {
+    "concept": "massive",
+    "node_type": "Descriptor",
+    "aliases": [
+      "massive facies"
+    ]
+  },
+  {
+    "concept": "blocky",
+    "node_type": "Descriptor",
+    "aliases": [
+      "blocky facies",
+      "preserved blocks"
+    ]
+  },
+  {
+    "concept": "layered",
+    "node_type": "Descriptor",
+    "aliases": [
+      "layered facies",
+      "stratified",
+      "parallel reflections"
+    ]
+  },
+  {
+    "concept": "high-amplitude",
+    "node_type": "Descriptor",
+    "aliases": [
+      "high amplitude",
+      "strong amplitude",
+      "bright reflections"
+    ]
+  },
+  {
+    "concept": "low-amplitude",
+    "node_type": "Descriptor",
+    "aliases": [
+      "low amplitude",
+      "weak reflections"
+    ]
+  },
+  {
+    "concept": "discontinuous",
+    "node_type": "Descriptor",
+    "aliases": [
+      "discontinuous reflections",
+      "disrupted"
+    ]
+  },
+  {
+    "concept": "continuous",
+    "node_type": "Descriptor",
+    "aliases": [
+      "continuous reflections",
+      "laterally continuous"
+    ]
+  },
+  {
+    "concept": "hummocky",
+    "node_type": "Descriptor",
+    "aliases": [
+      "hummocky surface",
+      "hummocky topography"
+    ]
+  },
+  {
+    "concept": "deformed",
+    "node_type": "Descriptor",
+    "aliases": [
+      "deformed strata",
+      "deformed reflections"
+    ]
+  },
+  {
+    "concept": "debris flow",
+    "node_type": "Process",
+    "aliases": [
+      "debris-flow",
+      "debris avalanche"
+    ]
+  },
+  {
+    "concept": "turbidity current",
+    "node_type": "Process",
+    "aliases": [
+      "turbidity flow",
+      "turbulent flow"
+    ]
+  },
+  {
+    "concept": "slope failure",
+    "node_type": "Process",
+    "aliases": [
+      "slope collapse",
+      "slope instability",
+      "mass wasting"
+    ]
+  },
+  {
+    "concept": "erosion",
+    "node_type": "Process",
+    "aliases": [
+      "basal erosion",
+      "lateral erosion"
+    ]
+  },
+  {
+    "concept": "deposition",
+    "node_type": "Process",
+    "aliases": [
+      "sediment deposition",
+      "mass deposition"
+    ]
+  },
+  {
+    "concept": "transport",
+    "node_type": "Process",
+    "aliases": [
+      "sediment transport",
+      "mass transport process"
+    ]
+  },
+  {
+    "concept": "sliding",
+    "node_type": "Process",
+    "aliases": [
+      "translational sliding",
+      "rotational sliding"
+    ]
+  },
+  {
+    "concept": "slumping",
+    "node_type": "Process",
+    "aliases": [
+      "rotational slumping"
+    ]
+  },
+  {
+    "concept": "liquefaction",
+    "node_type": "Process",
+    "aliases": [
+      "sediment liquefaction"
+    ]
+  },
+  {
+    "concept": "hydroplaning",
+    "node_type": "Process",
+    "aliases": [
+      "basal hydroplaning"
+    ]
+  },
+  {
+    "concept": "retrogression",
+    "node_type": "Process",
+    "aliases": [
+      "retrogressive failure",
+      "retrogressive collapse"
+    ]
+  },
+  {
+    "concept": "earthquake",
+    "node_type": "Process",
+    "aliases": [
+      "seismic event",
+      "seismicity"
+    ]
+  },
+  {
+    "concept": "slope",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "continental slope",
+      "slope angle",
+      "slope gradient"
+    ]
+  },
+  {
+    "concept": "sea level",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "sea-level",
+      "sea level change",
+      "eustatic change"
+    ]
+  },
+  {
+    "concept": "sedimentation rate",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "sediment supply",
+      "sediment accumulation rate"
+    ]
+  },
+  {
+    "concept": "basin",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "sedimentary basin",
+      "deep basin"
+    ]
+  },
+  {
+    "concept": "margin",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "continental margin",
+      "passive margin"
+    ]
+  },
+  {
+    "concept": "gas hydrate",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "gas hydrate dissociation",
+      "methane hydrate"
+    ]
+  },
+  {
+    "concept": "overpressure",
+    "node_type": "Environmental_Control",
+    "aliases": [
+      "pore pressure",
+      "excess pore pressure",
+      "fluid overpressure"
+    ]
+  }
+]

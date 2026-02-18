@@ -1,0 +1,14 @@
+{
+  "run": 1,
+  "date": "2025-10",
+  "method": "spaCy SVO",
+  "llm": null,
+  "corpus": "41 papers (with Le Bouteiller)",
+  "raw_triples": 629,
+  "clean_triples": 161,
+  "unique_nodes": 189,
+  "relatedTo_pct": 28.6,
+  "hasDescriptor_pct": 1.2,
+  "lb_recall_approx": 0.30,
+  "descriptor_coverage": "4/13"
+}

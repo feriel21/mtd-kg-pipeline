@@ -1,0 +1,19 @@
+
+╔══════════════════════════════════════╦══════════════╦══════════════╦══════════════╗
+║ Metric                               ║    Run 1     ║    Run 2     ║    Run 3     ║
+╠══════════════════════════════════════╬══════════════╬══════════════╬══════════════╣
+║ Raw triples                          ║     629      ║     613      ║          142 ║
+║ After cleaning                       ║     161      ║     275      ║          117 ║
+║ Nodes                                ║     189      ║     377      ║           90 ║
+║ relatedTo %                          ║    28.6%     ║    54.5%     ║         0.0% ║
+║ hasDescriptor %                      ║     1.2%     ║     1.1%     ║        62.4% ║
+║ LB2019 recall                        ║     ~30%     ║     ~25%     ║          62% ║
+║ Descriptor coverage (13)             ║    4/13      ║    4/13      ║   11/13      ║
+║ Corpus                               ║  w/ Pauline  ║  w/o Pauline ║  w/o Pauline ║
+║ Prompt strategy                      ║    1 (SVO)   ║    1 (SVO)   ║ 3 (C+D+X)   ║
+║ Few-shot examples                    ║      No      ║      No      ║     Yes      ║
+║ Pre-validation                       ║      No      ║   Partial    ║    Strict    ║
+║ relatedTo reclassification           ║      No      ║      No      ║     Yes      ║
+║ Multi-support tracking               ║      No      ║      No      ║     Yes      ║
+║ Provenance tracking                  ║      No      ║      No      ║     Yes      ║
+╚══════════════════════════════════════╩══════════════╩══════════════╩══════════════╝
