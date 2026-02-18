@@ -214,20 +214,16 @@ mtd-kg-pipeline/
 ## Citation
 
 ```bibtex
-@article{talbi2026mtdkg,
-  title={Ontology-Constrained Knowledge Graph Construction from Geological
-         Literature using Lightweight {LLMs}: Application to
-         Mass-Transport Deposits},
-  author={Talbi, Feryal and Armitage, John},
-  year={2026},
-  note={In preparation}
-}
+
 ```
 
 ---
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
 
 The geological corpus used in this work is derived from published scientific literature and is not redistributed. Users must obtain their own copies of the source papers.
+
+## Acknowledgments
+This project is co-funded by the European Union’s Horizon Europe research and innovation programme Cofund SOUND.AI under the Marie Sklodowska-Curie Grant Agreement No 101081674.
+
