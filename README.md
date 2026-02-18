@@ -5,7 +5,7 @@
 
 > **Ontology-Constrained RAG Extraction with Lightweight LLMs for Domain Knowledge Graph Construction: Application to Mass-Transport Deposits**
 >
-> Feryal Talbi, John Armitage — Sorbonne University / IFPEN
+> Feryal Talbi, John Armitage, Alain Rabaute, Jean Charl\'ety, Jean-No\"el Vittaut, Antoine Bouziat, Sylvie Leroy — Sorbonne University / IFPEN / LIP6
 
 ---
 
